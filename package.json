@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "1b95fa8b-f5dc-403e-aa83-2a1e3f93b347",
+    "appType": "app",
+    "appDisplayName": "Connected Health",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_internet",
+      "run_background",
+      "access_exercise",
+      "access_user_profile",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Connected Health"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

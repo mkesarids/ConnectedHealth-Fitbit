@@ -1,0 +1,22 @@
+<svg>
+  
+  <text id="hrm-label" class="label" y="25">heart rate</text>
+  <text id="hrm-data" class="data">0</text>
+  <text id="accel-label" class="label">accelerometer</text>
+  <text id="accel-data" class="data">{"X":0.00, "Y":0.00, "Z":0.00}</text>
+  <text id="gyro-label" class="label">gyroscope</text>
+  <text id="gyro-data" class="data">{"X":0.00, "Y":0.00, "Z":0.00}</text>
+  
+  <text id="name-label" class="label" x="70%" y="25">name</text>
+  <text id="name-data" class="data" x="70%"> </text>
+  <text id="workout-label" class="label" x="70%">workout</text>
+  <text id="workout-data" class="data" x="70%"> </text>
+  
+  <text id="error-label" class="error" x="50%" y="75%"> </text>
+  
+  <use id="recordbutton" href="#push-button" y="80%" height="20%" fill="fb-blue" font-family="System-Regular" font-size="30">
+    <set href="#text" attributeName="text-buffer" to="Record" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="10" />
+  </use>
+</svg>

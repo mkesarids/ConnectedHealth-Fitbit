@@ -1,0 +1,36 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+.label {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: start;
+  text-length: 32;
+  font-size: 18;
+  x: 5%;
+  y: $+10;
+}
+
+.data {
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: start;
+  text-length: 64;
+  font-size: 15;
+  x: 5%;
+  y: $;
+}
+
+.error {
+  font-family: System-Light;
+  fill: red;
+  text-anchor: middle;
+  text-length: 64;
+  font-size: 25;
+  x: 50%;
+  y: 75%;
+}
